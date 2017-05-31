@@ -1,0 +1,42 @@
+body{
+	background-color: #e9ebee;
+	padding-bottom: 70px;
+}
+
+.titulo-header{
+	text-align: center;
+	color: white; 
+	font-size: 20px;
+	margin-top: 11px;
+}
+
+/****************************************** Home ******************************************/
+/* Header */
+.div-agr-ser{
+	float: left;
+}
+
+.div-info{
+	float: right;
+}
+
+/* Modal Info */
+.header-info{
+	text-align: center; 
+	margin-bottom: 0; 
+	font-size: 20px;
+}
+
+.texto-modal{
+	margin-bottom: 2px;
+}
+
+.div-btn{
+	width: 100%; 
+	margin: 0 25% 0 25%;
+}
+
+.btn-modal-info{
+	width: 50%; 
+	margin: auto;
+}

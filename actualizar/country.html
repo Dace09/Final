@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo de Servicios - Alta de servicios</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- Header -->
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div>
+				<p class="titulo-header">Edición del servicio</p>
+			</div>
+		</div>
+	</nav>
+	<!-- Content -->
+	<div class="container">
+		<div style="text-align:center;">
+			<img src="../img/editar.png" alt="alta de servicio" width="50%">
+		</div>
+		<br>
+		<form>
+		  	<div class="form-group">
+		    	<label for="nombre">Nombre:</label>
+		    	<input type="text" class="form-control" id="nombre" placeholder="Nombre" value="La Casa Country">
+		  	</div>
+		  	<div class="container" style="text-align: center">
+		  		<div id="list">
+		  			<img src="../img/country.png" alt="" width="100%" class="img-responsive thumbnail">
+		  		</div>
+		  	</div>
+		  	<div class="form-group">
+    			<label for="files">Seleccione una imagen</label>
+    			<input type="file" id="files" name="files[]">
+    			<p class="help-block">Max. 5MB</p>
+ 			 </div>
+ 			 <div class="form-group">
+		    	<label for="telefono">Telefono:</label>
+		    	<input type="text" class="form-control" id="telefono" placeholder="Telefono" value="01 669 916 5300">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="correo">Correo:</label>
+		    	<input type="text" class="form-control" id="correo" placeholder="Telefono" value="casacountry@gmail.com">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="domicilio">Domicilio:</label>
+		    	<input type="text" class="form-control" id="domicilio" placeholder="Domicilio" value="Av. Camarón Sabalo S/N, Sábalo Country, 82100 Mazatlán, Sin.">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="categoria">Categoria:</label>
+		    	<input type="text" class="form-control" id="categoria" placeholder="Categoria" value="Servicios de comida">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="nota">Nota:</label>
+		    	<textarea class="form-control" id="nota" placeholder="Escriba una descripción" rows="4" style="resize: none;">Cortes americanos y mexicanos con gran variedad de salsas se ofrece en un local amplio y cerca del mar.</textarea>
+		  	</div>
+		  	<div class="form-group" style="text-align: center;">
+		  		<button type="button" class="btn btn-primary" style="margin: 10px;">Guardar</button>
+		  		<button type="button" class="btn btn-danger" style="margin: 10px;">Cancelar</button>
+		  	</div>		  	
+		</form>
+	</div>
+	<!-- Footer -->
+	<footer class="navbar-fixed-bottom">
+		<div class="container-fluid" style="padding: 0;">
+			<div class="btn-group" role="group" aria-label="..." style="width: 100%;">
+  				<button type="button" class="btn btn-info" title="Atras" onclick="javascript:window.history.back();" style="width: 25%; border-bottom-left-radius: 0px;border-top-left-radius: 0px;">
+  					<span class="glyphicon glyphicon-arrow-left" aria-hidden="true">
+						<p style="margin: 0px">Atras</p>
+					</span>
+  				</button>
+  				<button type="button" class="btn btn-info" title="home" style="width: 25.1%;" onclick="location='../index.html'">
+					<span class="glyphicon glyphicon-info-sign" aria-hidden="true">
+						<p style="margin: 0px">Home</p>
+					</span>
+	  			</button>
+  				<button type="button" class="btn btn-info" title="Mas información" data-toggle="modal" data-target="#myModal" style="width: 25.1%;">
+					<span class="glyphicon glyphicon-info-sign" aria-hidden="true">
+						<p style="margin: 0px">Info</p>
+					</span>
+  				</button>
+  				<button type="button" class="btn btn-info" title="Siguiente" onclick="location='../index.html'" style="width: 25%; border-bottom-right-radius: 0px;border-top-right-radius: 0px;">
+	  				<span class="glyphicon glyphicon-arrow-right" aria-hidden="true">
+						<p style="margin: 0px">Siguiente</p>
+					</span>
+	  			</button>
+			</div>
+		</div>
+	</footer>
+	<!-- Modal Informacion -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal" data-backdrop="static" data-keyboard="false">
+  		<div class="modal-dialog" role="document">
+    		<div class="panel panel-info">
+    			<div class="panel-heading">
+    				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    				<p class="header-info">Mas Información</p>
+    			</div>
+				<div class="panel-body">
+    				<blockquote class="pull-left">
+  						<p class="texto-modal">Aplicación desarrollada mediante PhoneGap para Proyecto Final.</p>
+  						<small class="pull-right">Por<cite title="Nombre Apellidos"> Damian Jasso - Mayo 2017</cite></small>
+					</blockquote>
+        			<div class="div-btn">
+        				<button type="button" class="btn btn-info btn-modal-info" data-dismiss="modal">Cerrar</button>
+        			</div>
+  				</div>
+    		</div>
+  		</div>
+	</div>
+	<!-- JQuery y Bootstrap -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>	
+	<script>
+        function archivo(evt) {
+            var files = evt.target.files; // FileList object
+             
+            // Obtenemos la imagen del campo "file".
+            for (var i = 0, f; f = files[i]; i++) {
+            	//Solo admitimos imágenes.
+                if (!f.type.match('image.*')) {
+                    continue;
+                }
+                var reader = new FileReader();
+                reader.onload = (function(theFile) {
+                    return function(e) {
+                    // Insertamos la imagen
+                    document.getElementById("list").innerHTML = ['<img class="thumbnail img-responsive" src="', e.target.result,'" title="', escape(theFile.name), '"/>'].join('');
+                    };
+                })(f);
+				reader.readAsDataURL(f);
+            }
+        }
+        document.getElementById('files').addEventListener('change', archivo, false);
+      </script>
+</body>
+</html>
