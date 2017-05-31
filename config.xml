@@ -6,12 +6,12 @@
 
 	<name>Catalogo de servicios</name>
 
-	<description>Aplicacion hecha con JQuery mobile</description>
+	<description>Aplicacion Final hecha con bootstrap</description>
 
 	<author href="https://example.com" email="jasso_32@hotmail.com">Damian Jasso</author>
 
-	<icon src="img/agenada.png" gap:density="ldpi" gap:platform="android" />
-	<icon src="img/agenada.png" gap:density="mdpi" gap:platform="android" />
-	<icon src="img/agenada.png" gap:density="hdpi" gap:platform="android" />
-	<icon src="img/agenada.png" gap:density="xhdpi" gap:platform="android" />
+	<icon src="img/favicon.ico" gap:density="ldpi" gap:platform="android" />
+	<icon src="img/favicon.ico" gap:density="mdpi" gap:platform="android" />
+	<icon src="img/favicon.ico" gap:density="hdpi" gap:platform="android" />
+	<icon src="img/favicon.ico" gap:density="xhdpi" gap:platform="android" />
 </widget>
